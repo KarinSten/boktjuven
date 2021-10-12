@@ -180,7 +180,7 @@ Du behöver sedan ändra ett saker på varje sida.
     function validateForm() {
 
       //Det använder skriver i rutan hämtas in och sparas i en variabel som heter answer.
-      var answer = document.forms["contactForm"]["tyskland"].value.toLowerCase();
+      var answer = document.forms["contactForm"]["answer"].value.toLowerCase();
       
       /*Genom att ändra det som står mellan dessa tecken "" kan du välja vad som är rätt svar 
       Viktigt! Skriv svaret med små bokstäver.
@@ -205,7 +205,7 @@ Du behöver sedan ändra ett saker på varje sida.
 
       */
 
-      if (answer == "ändra") {
+      if (answer == "tyskland") {
           return true;
       }else{
         document.getElementById("answer").value ="";

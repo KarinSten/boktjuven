@@ -274,9 +274,9 @@ ctrl+f för att snabbt hitta de platser du behöver ändra på.-->
       if (answer == "svar1" || answer == "svar2" answer == "svar3" )
       */
 
-      if (answer == BOOKLOVER) { /*Kom ihåg att svaret skall skrivas med gemener*/
+      if (answer == "booklover") { /*Kom ihåg att svaret skall skrivas med gemener*/
           return true;
-      }else{
+           }else{
         document.getElementById("answer").value ="";
         document.getElementById("answer").setAttribute("placeholder","Det var tyvärr fel svar, försök igen!");
         return false;
